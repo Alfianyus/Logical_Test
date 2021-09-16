@@ -1,0 +1,10 @@
+<?php 
+
+$x=array("gtAkademik","gtFinansi","gtPerizinan","eCampus","eOviez");
+foreach ($x as $value)
+{
+	echo $value."<br/>";
+}
+
+
+ ?>
