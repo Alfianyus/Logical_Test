@@ -1,0 +1,1 @@
+SELECT Mahasiswa.NM_Mhs,Nilai.Value FROM Mahasiswa,Nilai,Mata_Kuliah WHERE Mata_Kuliah.Kode_MK = “MK303” AND Nilai.Value = (SELECT max(Value) FROM Nilai WHERE Kode_MataKuliah = “MK303”);
